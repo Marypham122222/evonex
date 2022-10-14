@@ -1,0 +1,123 @@
+.color{
+    background-color: rgb(33,37,41);
+    color: white;
+}
+.colos li a{
+    color: white;
+}
+body::before{
+    display: block;
+    height: 60px;
+    content: '/';
+}
+.colo{
+    color: white;
+    background-color: rgb(255,142,0);
+    border-radius: 10px;
+    border: none !important;
+}
+.colos li a:hover{
+    color:  rgb(255,142,0);
+    border-bottom: 2px solid  rgb(255,142,0);
+}
+.color0 li a{
+    color: white;
+}
+.color0 li a:hover{
+    border: 1px solid rgb(255,142,0);
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+}
+.clod{
+    background-image: linear-gradient(to bottom, rgba(255,208,152, 0.5), rgba(255,250,245, 0.5)), url(/img/WhatsApp\ Image\ 2022-10-12\ at\ 4.17.49\ AM.jpeg);
+}
+.bordor{
+    width: 10%;
+}
+.footer{
+    background-color: rgb(33,37,41);
+    color: white;
+}
+.dike{
+    width: 50%;
+    border-radius: 10px;
+    background-color: white;
+}
+.bod{
+    outline: none;
+    border: none;
+}
+.bolo{
+    border-bottom: 1px solid  rgb(255,142,0);
+}
+.span{
+    color:  rgb(255,142,0);
+}
+.last{
+    background-color: rgb(33,36,41);
+    color: white;
+}
+.clww{
+    width: 50px;
+}
+.laud{
+    border-bottom: 3px solid  rgb(255,142,0);
+}
+.reg{
+    background-color: rgb(218,120,0);
+    color: white;
+}
+.rate{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px #da78003b
+}
+.clll{
+    color: rgb(101, 102, 102);
+}
+.bill input{
+    outline: none;
+    border: 0;
+    border-radius: 10px;
+    padding: 5%;
+}
+.dvv{
+    background-color:  rgb(255,142,0);
+    padding: 15px;
+    border: none;
+    width: 20%;
+    border-radius: 10px;
+    margin-right: 2%;
+}
+.bill{
+    background-color: white;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 2px;
+}
+@media(max-width:1000px){
+    .dvv{
+        background-color:  rgb(255,142,0);
+        border: none;
+        width: 35%;
+        border-radius: 10px;
+        padding: 2%;
+        font-size: 12px;
+    }
+    .bill input{
+        outline: none;
+        border: 0;
+        font-size: 10px;
+        border-radius: 10px;
+        padding: 0;
+        width: 100%;
+    }
+    .bill{
+        background-color: white;
+        border-radius: 10px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
